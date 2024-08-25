@@ -54,11 +54,38 @@ const users = [     //objects insisde array
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+// DESTRUCTURING 
+
+const course = {
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructuor:"hitesh",
+}
+
+// course.courseInstructor
+
+const {courseInstructuor : instructor} = course  // by using this we wil not have to write the code in line 74 many times
+console.log(instructor); 
+
+
+// const navbar = ({company}) => {
+    
+// }
+
+// navbar(company = "hitesh")
+
+// {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free",
+
+// }

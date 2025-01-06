@@ -30,18 +30,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 // const min=10
 // const max=10
 
-// console.log(Math.random() * (max-min+1)) 
-
-
-
-
-
-
-
-
-
-
-
+console.log(Math.random() * (max-min+1));
 
 
 

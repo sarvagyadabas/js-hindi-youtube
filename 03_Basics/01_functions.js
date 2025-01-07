@@ -62,7 +62,7 @@ const myNewArr = [200,400,600,800]
 function returnSecondValue(getArray){
     return getArray[1]
 }
-// console.log(returnSecondValue(myNewArr));
+console.log(returnSecondValue(myNewArr));
 console.log(returnSecondValue([200,400,600,800]));
 
 

@@ -1,4 +1,4 @@
-// singlrton
+// singleton
 // Object.create
 // object literals
 const mySym = Symbol("key1")
@@ -13,10 +13,10 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-console.log(JsUser.email);
-console.log(JsUser["email"]);
-console.log(JsUser["full name"]);
-console.log([mySym]);
+// console.log(JsUser.email);
+// console.log(JsUser["email"]);
+// console.log(JsUser["full name"]);
+// console.log([mySym]);
 
 // JsUser.email = "hitesh@chatgpt.com"
 // console.log(JsUser["email"]);
